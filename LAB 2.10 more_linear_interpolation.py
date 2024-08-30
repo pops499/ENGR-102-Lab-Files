@@ -75,7 +75,7 @@ print("z2 =", linear_interpolation, "m" )
 
 print ("-----------------------")
 
-# time for x at 37.5 seconds
+# time for x at 45.0 seconds
 x1 = 12
 x2 = 85
 y1 = 8
@@ -86,7 +86,7 @@ linear_interpolation = y1 + (slope) * (x - x1)
 print("At time 45.0 seconds:")
 print("x3 =", linear_interpolation, "m" )
 
-# time for y at 37.5
+# time for y at 45.0 seconds
 x1 = 12
 x2 = 85
 y1 = 6
@@ -96,7 +96,7 @@ x = 45.0
 linear_interpolation = y1 + (slope) * (x - x1)
 print("y3 =", linear_interpolation, "m" )
 
-# time for z at 37.5
+# time for z at 45.0 seconds
 x1 = 12
 x2 = 85
 y1 = 7
@@ -108,7 +108,7 @@ print("z3 =", linear_interpolation, "m" )
 
 print ("-----------------------")
 
-# time for x at 37.5 seconds
+# time for x at 52.5 seconds
 x1 = 12
 x2 = 85
 y1 = 8
@@ -119,7 +119,7 @@ linear_interpolation = y1 + (slope) * (x - x1)
 print("At time 52.5 seconds:")
 print("x4 =", linear_interpolation, "m" )
 
-# time for y at 37.5
+# time for y at 52.5 seconds
 x1 = 12
 x2 = 85
 y1 = 6
@@ -129,7 +129,7 @@ x = 52.5
 linear_interpolation = y1 + (slope) * (x - x1)
 print("y4 =", linear_interpolation, "m" )
 
-# time for z at 37.5
+# time for z at 52.5 seconds
 x1 = 12
 x2 = 85
 y1 = 7
@@ -141,7 +141,7 @@ print("z4 =", linear_interpolation, "m" )
 
 print ("-----------------------")
 
-# time for x at 37.5 seconds
+# time for x at 60.0 seconds
 x1 = 12
 x2 = 85
 y1 = 8
@@ -152,7 +152,7 @@ linear_interpolation = y1 + (slope) * (x - x1)
 print("At time 60.0 seconds:")
 print("x5 =", linear_interpolation, "m" )
 
-# time for y at 37.5
+# time for y at 60.0 seconds
 x1 = 12
 x2 = 85
 y1 = 6
@@ -162,7 +162,7 @@ x = 60.0
 linear_interpolation = y1 + (slope) * (x - x1)
 print("y5 =", linear_interpolation, "m" )
 
-# time for z at 37.5
+# time for z at 60.0 seconds
 x1 = 12
 x2 = 85
 y1 = 7
