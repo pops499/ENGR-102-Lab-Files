@@ -20,16 +20,16 @@ c = c_input.lower() in ['true', 't']
 
 ############ Part B ############
 # Evaluate Boolean expressions
-expr1 = a and b and c
-expr2 = a or b or c
+first_statement = a and b and c
+second_statement = a or b or c
 
-print("a and b and c:", expr1)
-print("a or b or c:", expr2)
+print("a and b and c:", first_statement)
+print("a or b or c:", second_statement)
 
 ############ Part C ############
 # Construct and evaluate Boolean expressions
-expr3 = (a or b) and not (a and b)
-expr4 = (a + b + c) in [1, 3]
+thrid_statement = (a or b) and not (a and b)
+fourth_statement= (a + b + c) in [1, 3]
 
-print("XOR:", expr3)
-print("Odd number:", expr4)
+print("XOR:", thrid_statement)
+print("Odd number:", fourth_statement)
